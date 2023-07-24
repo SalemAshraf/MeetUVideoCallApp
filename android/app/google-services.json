@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "140525202489",
+    "project_id": "meetu-b04a2",
+    "storage_bucket": "meetu-b04a2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:140525202489:android:afb8a5f85d2cf7aefff1e8",
+        "android_client_info": {
+          "package_name": "com.example.meetu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "140525202489-7aa4tu76ngvmd8rdkb07r577v3192j23.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlQvvhojhC_0BFi2x_5bTc4iay1xIOzo4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "140525202489-7aa4tu76ngvmd8rdkb07r577v3192j23.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
