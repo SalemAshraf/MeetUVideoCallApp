@@ -1,4 +1,4 @@
-// ignore_for_file: avoid_print
+// ignore_for_file: avoid_print, file_names
 
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
@@ -7,7 +7,7 @@ import 'package:google_sign_in/google_sign_in.dart';
 import 'package:meetu/Utils/snackBar.dart';
 // ignore_for_file: non_constant_identifier_names, use_key_in_widget_constructors, use_build_context_synchronously
 
-class GoogleAuth {
+class GoogleAuth extends ChangeNotifier {
   final FirebaseAuth firebase_auth = FirebaseAuth.instance;
   final FirebaseFirestore firebaseFirestore = FirebaseFirestore.instance;
 
